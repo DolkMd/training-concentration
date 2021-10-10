@@ -1,1 +1,4 @@
-# training-concentration
+# 初めてのFlutter
+
+
+よくわからないけどとりあえず神経衰弱を作ってみた。（孤独）
