@@ -35,8 +35,8 @@ class CardState extends State<CardPage> {
       ),
     ) : FlipCard(
       key: widget.cardKey,
-      fill: Fill.fillBack, // Fill the back side of the card to make in the same size as the front.
-      direction: FlipDirection.HORIZONTAL, // default
+      fill: Fill.fillBack,
+      direction: FlipDirection.HORIZONTAL,
       front: Container(
         margin: const EdgeInsets.only(left: 1, right: 1),
         width: 100,
@@ -47,7 +47,6 @@ class CardState extends State<CardPage> {
         ),
       ),
       back: Center(
-        // child: Text("$suit\nNumber $number", textAlign: TextAlign.center),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisSize: MainAxisSize.min,
